@@ -1,21 +1,15 @@
 import streamlit as st
 from st_functions import st_button, load_css
 
+st.set_page_config(page_title="Links", layout="wide")
+
 load_css()
 
-st.set_page_config(
-    page_title="Streamlit App",
-    page_icon=":chart:",
-    layout="wide",
-    initial_sidebar_state="auto",
-)
-
-# Add custom CSS to change background color
 st.markdown(
     """
     <style>
     body {
-        background-color: white;
+        background-color: #FFFFFF;  /* Set the background color to white */
     }
     </style>
     """,
