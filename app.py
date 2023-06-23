@@ -60,6 +60,6 @@ st_button("linkedin", "https://www.linkedin.com/in/pranavagrawal321/", "LinkedIn
 st_button("github", "https://github.com/pranavagrawal321", "Github", 20)
 st_button("leetcode", "https://leetcode.com/pranavagrawal321/", "Leetcode", 20)
 st_button("hackerrank", "https://hackerrank.com/pranavagrawal321/", "Hackerrank", 20)
-st_button("codechef", "https://codechef.com/pranavagrawal321/", "Codechef", 20)
+st_button("codechef", "https://www.codechef.com/users/pranavagrawal1/", "Codechef", 20)
 st_button("codeforces", "https://codeforces.com/profile/_pranavagrawal", "Codeforces", 20)
 st_button("contact", "pranavagrawal321@gmail.com", "Contact", 20)

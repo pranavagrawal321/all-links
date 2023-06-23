@@ -26,7 +26,7 @@ def st_button(icon, url, label, iconsize):
     elif icon == 'leetcode':
         button_code = f'''
         <p>
-            <a href="https://leetcode.com/" class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+            <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
                 <img src="https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png" width={iconsize} height={iconsize} alt="LeetCode Logo" style="filter: invert(0.7);">
                 {label}
             </a>
@@ -47,7 +47,7 @@ def st_button(icon, url, label, iconsize):
     elif icon == 'hackerrank':
         button_code = f'''
             <p>
-                <a href="https://www.hackerrank.com/" class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
+                <a href={url} class="btn btn-outline-primary btn-lg btn-block" type="button" aria-pressed="true">
                     <img src="https://hrcdn.net/fcore/assets/work/header/hackerrank_logo-21e2867566.svg" width={iconsize} height={iconsize} alt="HackerRank Logo" style="filter: invert(0.7);">
                     {label}
                 </a>
