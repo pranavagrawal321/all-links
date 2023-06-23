@@ -1,9 +1,26 @@
 import streamlit as st
 from st_functions import st_button, load_css
 
-st.set_page_config(layout="wide")
-
 load_css()
+
+st.set_page_config(
+    page_title="Streamlit App",
+    page_icon=":chart:",
+    layout="wide",
+    initial_sidebar_state="auto",
+)
+
+# Add custom CSS to change background color
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.markdown("""
 <style>
@@ -24,8 +41,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
-st.markdown('<div class="stApp stAppEmbeddingId-rwq0jb9p7auv css-1sls4c0 eczokvf1">', unsafe_allow_html=True)
 
 st.markdown('<h1 class="title" style="margin-top: 0; padding-top: 0" full_width=True>Pranav Agrawal</h1>',
             unsafe_allow_html=True)
