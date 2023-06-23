@@ -9,6 +9,8 @@ st.markdown("""
 <style>
     .title {
         text-align: center;
+        font-weight: bold;
+        color: black;
     }
     .image-container {
         display: flex;
@@ -23,17 +25,19 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<h1 class="title" style="margin-top: 0; padding-top: 0;" full_width=True>Pranav Agrawal</h1>',
+st.markdown('<h1 class="title" style="margin-top: 0; padding-top: 0" full_width=True>Pranav Agrawal</h1>',
             unsafe_allow_html=True)
 
 st.markdown(
-    '<div class="image-container" full_width=True><img src="https://cdn-icons-png.flaticon.com/128/2609/2609282.png"></div>',
+    '<div class="image-container" full_width=True><img '
+    'src="https://cdn-icons-png.flaticon.com/128/2609/2609282.png"></div>',
     unsafe_allow_html=True)
 
 st.write("")
 
 st.markdown(
-    '<p class="info" style="color: #3c4280;" full_width=True>Developer, Interested in Data Science & Machine Learning</p>',
+    '<p class="info" style="color: #3c4280;" full_width=True>Developer, Interested in Data Science & Machine '
+    'Learning</p>',
     unsafe_allow_html=True)
 
 st.write("")
